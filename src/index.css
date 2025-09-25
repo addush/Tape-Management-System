@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+.tabs {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: #ecf0f1;
+  border-radius: 5px 5px 0 0;
+  font-weight: bold;
+  color: #34495e;
+  transition: background-color 0.2s;
+}
+
+.tabs button.active {
+  background: #3498db;
+  color: white;
+}
+
+form label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select,
+form textarea {
+  padding: 6px;
+  width: 95%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+form button {
+  margin-top: 12px;
+  background: #3498db;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form button:hover {
+  background: #2980b9;
+  transition: background-color 0.2s;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+th {
+  background: #3498db;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+td {
+  padding: 5px 6px;
+  border: 1px solid #ddd;
+}
+
+select[multiple] {
+  height: 120px;
+}
